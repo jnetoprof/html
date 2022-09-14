@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;  
+}
+body {
+    background-color: #009dff;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+nav {
+    position: fixed;
+    margin-bottom: 40px;
+    align-content: flex-start;
+}
+nav ul{
+    display: flex;
+    justify-content: right;
+    align-items:flex-start;
+    list-style: none;
+    font-size: 30px;
+}
+nav li {
+    margin: 10px;
+    font-weight: bold;
+}
+nav ul a {
+    color: #ff0084;
+    text-decoration: none;
+}
+a:hover{
+    color: #ffff;
+    transition: 2s;
+}
+figure img{
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+}
