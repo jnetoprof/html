@@ -29,7 +29,7 @@
     margin: 10px;
   }
   article p {
-    margin: 10px;
+    margin: 0px;
     width: 350px;
     height: 120px;
     text-align: justify;
@@ -170,6 +170,19 @@
    .botao button:hover {
     color: #ffff;
    }
+   .tabela {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+   }
+    tr, td {    
+		border: 1px solid #ff0084;
+	}
+  td {
+    padding:20px;
+  }
    
    #toggle-1 {
     display:none;
